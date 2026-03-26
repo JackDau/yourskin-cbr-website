@@ -121,4 +121,156 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
+  // === Case Study Modal ===
+  var caseData = {
+    'bcc-ear': {
+      title: 'Basal Cell Carcinoma \u2014 Ear',
+      desc: 'Surgical excision of basal cell carcinoma located on the ear with reconstruction.',
+      outcome: 'Complete excision with clear margins and excellent cosmetic outcome following reconstruction.',
+      images: [
+        { src: '../images/case-studies/bcc-ear-1.jpg', caption: 'Pre-operative assessment' },
+        { src: '../images/case-studies/bcc-ear-intraop-marking.jpg', caption: 'Intra-operative marking' },
+        { src: '../images/case-studies/bcc-ear-star-excision.jpg', caption: 'Star excision' },
+        { src: '../images/case-studies/bcc-ear-2.jpg', caption: 'Intra-operative view' },
+        { src: '../images/case-studies/bcc-ear-3.jpg', caption: 'Reconstruction' },
+        { src: '../images/case-studies/bcc-ear-4.jpg', caption: 'Post-operative result' }
+      ]
+    },
+    'bcc-nose': {
+      title: 'Basal Cell Carcinoma \u2014 Nose',
+      desc: 'Basal cell carcinoma identified on the right nose. Excised on-site with complete closure and monitored healing.',
+      outcome: 'Successful excision with excellent healing at one week post-op.',
+      images: [
+        { src: '../images/case-studies/bcc-nose-1.jpg', caption: 'BCC right nose' },
+        { src: '../images/case-studies/bcc-nose-2.jpg', caption: 'Pre-op marking' },
+        { src: '../images/case-studies/bcc-nose-3.jpg', caption: 'Intra-operative closing' },
+        { src: '../images/case-studies/bcc-nose-4.jpg', caption: 'Healing at 1 week' }
+      ]
+    },
+    'melanoma-forehead': {
+      title: 'Melanoma \u2014 Right Forehead',
+      desc: 'Melanoma on the right forehead treated with shave biopsy and advancement-to-lateral (A-L) flap reconstruction.',
+      outcome: 'Excellent cosmetic result at 6 months post-op with complete excision.',
+      images: [
+        { src: '../images/case-studies/melanoma-forehead-1.jpg', caption: 'Melanoma right forehead' },
+        { src: '../images/case-studies/melanoma-forehead-2.jpg', caption: 'Pre-operative marking' },
+        { src: '../images/case-studies/melanoma-forehead-3.jpg', caption: 'Shave biopsy and A-L flap' },
+        { src: '../images/case-studies/melanoma-forehead-4.jpg', caption: '6 months post-op' }
+      ]
+    },
+    'scc-cheek': {
+      title: 'SCC \u2014 Right Cheek',
+      desc: 'Squamous cell carcinoma on the right cheek treated with simple elliptical excision.',
+      outcome: 'Successful excision with excellent healing at 1 week and 6 months post-op.',
+      images: [
+        { src: '../images/case-studies/scc-cheek-1.jpg', caption: 'SCC right cheek' },
+        { src: '../images/case-studies/scc-cheek-2.jpg', caption: 'Pre-operative marking' },
+        { src: '../images/case-studies/scc-cheek-3.jpg', caption: 'Intra-operative ellipse' },
+        { src: '../images/case-studies/scc-cheek-4.jpg', caption: 'Post-surgical healing at 1 week and 6 months' }
+      ]
+    }
+  };
+
+  var caseModal = document.getElementById('case-modal');
+  var caseModalClose = document.getElementById('case-modal-close');
+
+  function openCaseModal(caseId) {
+    var data = caseData[caseId];
+    if (!data || !caseModal) return;
+
+    document.getElementById('case-modal-title').textContent = data.title;
+    document.getElementById('case-modal-desc').textContent = data.desc;
+
+    var gallery = document.getElementById('case-modal-gallery');
+    gallery.innerHTML = '';
+    data.images.forEach(function(img) {
+      var figure = document.createElement('figure');
+      var imgEl = document.createElement('img');
+      imgEl.src = img.src;
+      imgEl.alt = img.caption;
+      imgEl.loading = 'lazy';
+      imgEl.addEventListener('click', function() { openLightbox(img.src, img.caption); });
+      figure.appendChild(imgEl);
+      if (img.caption) {
+        var cap = document.createElement('figcaption');
+        cap.textContent = img.caption;
+        figure.appendChild(cap);
+      }
+      gallery.appendChild(figure);
+    });
+
+    var outcome = document.getElementById('case-modal-outcome');
+    if (data.outcome) {
+      outcome.innerHTML = '<strong>Treatment Outcome:</strong> ' + data.outcome;
+      outcome.style.display = '';
+    } else {
+      outcome.style.display = 'none';
+    }
+
+    caseModal.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCaseModal() {
+    if (caseModal) {
+      caseModal.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+  }
+
+  if (caseModalClose) {
+    caseModalClose.addEventListener('click', closeCaseModal);
+  }
+  if (caseModal) {
+    caseModal.addEventListener('click', function(e) {
+      if (e.target === caseModal) closeCaseModal();
+    });
+  }
+
+  document.querySelectorAll('.case-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var caseId = this.getAttribute('data-case');
+      if (caseId) openCaseModal(caseId);
+    });
+  });
+
+  // === Lightbox for full-size images ===
+  var lightbox = document.createElement('div');
+  lightbox.className = 'case-lightbox';
+  lightbox.innerHTML = '<button class="case-lightbox-close" aria-label="Close">&times;</button><img src="" alt="">';
+  document.body.appendChild(lightbox);
+
+  var lightboxImg = lightbox.querySelector('img');
+  var lightboxClose = lightbox.querySelector('.case-lightbox-close');
+
+  function openLightbox(src, alt) {
+    lightboxImg.src = src;
+    lightboxImg.alt = alt || '';
+    lightbox.classList.add('open');
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    lightboxImg.src = '';
+  }
+
+  lightboxClose.addEventListener('click', function(e) {
+    e.stopPropagation();
+    closeLightbox();
+  });
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox) closeLightbox();
+  });
+
+  // Close modals on Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      if (lightbox.classList.contains('open')) {
+        closeLightbox();
+      } else {
+        closeCaseModal();
+      }
+    }
+  });
+
 });
