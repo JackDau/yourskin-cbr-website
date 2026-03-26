@@ -273,43 +273,90 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // === Doctor Carousel ===
+  // === Doctor Carousel (infinite loop) ===
   var docTrack = document.getElementById('doc-carousel-track');
-  var docSlides = docTrack ? docTrack.querySelectorAll('.doc-slide') : [];
+  var docRealSlides = docTrack ? Array.prototype.slice.call(docTrack.querySelectorAll('.doc-slide')) : [];
   var docNav = document.getElementById('doc-carousel-nav');
   var docPrev = document.getElementById('doc-prev');
   var docNext = document.getElementById('doc-next');
-  var docIndex = 0;
+  var docCount = docRealSlides.length;
+  var docPos = 1; // starts at 1 because of prepended clone
   var docAutoTimer;
+  var docTransitioning = false;
 
-  if (docTrack && docSlides.length > 0) {
+  if (docTrack && docCount > 0) {
+    // Clone first and last slides for seamless looping
+    var firstClone = docRealSlides[0].cloneNode(true);
+    var lastClone = docRealSlides[docCount - 1].cloneNode(true);
+    firstClone.setAttribute('aria-hidden', 'true');
+    lastClone.setAttribute('aria-hidden', 'true');
+    docTrack.appendChild(firstClone);
+    docTrack.insertBefore(lastClone, docTrack.firstChild);
+
+    // Position to first real slide (index 1) without transition
+    docTrack.style.transition = 'none';
+    docTrack.style.transform = 'translateX(-100%)';
+
     // Create dots
-    docSlides.forEach(function(_, i) {
+    docRealSlides.forEach(function(_, i) {
       var dot = document.createElement('button');
       dot.className = 'doc-carousel-dot' + (i === 0 ? ' active' : '');
       dot.setAttribute('aria-label', 'Doctor ' + (i + 1));
       dot.addEventListener('click', function() {
-        goToDocSlide(i);
+        if (docTransitioning) return;
+        docPos = i + 1;
+        slideDocTo(docPos, true);
+        updateDocDots();
         resetDocAuto();
       });
       docNav.appendChild(dot);
     });
 
-    function goToDocSlide(index) {
-      docIndex = index;
-      docTrack.style.transform = 'translateX(-' + (index * 100) + '%)';
+    function slideDocTo(pos, animate) {
+      if (animate) {
+        docTrack.style.transition = 'transform 0.4s ease';
+      } else {
+        docTrack.style.transition = 'none';
+      }
+      docTrack.style.transform = 'translateX(-' + (pos * 100) + '%)';
+    }
+
+    function updateDocDots() {
+      var realIndex = ((docPos - 1) % docCount + docCount) % docCount;
       var dots = docNav.querySelectorAll('.doc-carousel-dot');
       dots.forEach(function(d, i) {
-        d.classList.toggle('active', i === index);
+        d.classList.toggle('active', i === realIndex);
       });
     }
 
+    docTrack.addEventListener('transitionend', function() {
+      docTransitioning = false;
+      // If we've slid to the first clone (after last real), jump to real first
+      if (docPos > docCount) {
+        docPos = 1;
+        slideDocTo(docPos, false);
+      }
+      // If we've slid to the last clone (before first real), jump to real last
+      if (docPos < 1) {
+        docPos = docCount;
+        slideDocTo(docPos, false);
+      }
+    });
+
     function nextDocSlide() {
-      goToDocSlide((docIndex + 1) % docSlides.length);
+      if (docTransitioning) return;
+      docTransitioning = true;
+      docPos++;
+      slideDocTo(docPos, true);
+      updateDocDots();
     }
 
     function prevDocSlide() {
-      goToDocSlide((docIndex - 1 + docSlides.length) % docSlides.length);
+      if (docTransitioning) return;
+      docTransitioning = true;
+      docPos--;
+      slideDocTo(docPos, true);
+      updateDocDots();
     }
 
     function startDocAuto() {
@@ -328,13 +375,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Touch/swipe support
     var touchStartX = 0;
-    var touchEndX = 0;
     docTrack.addEventListener('touchstart', function(e) {
       touchStartX = e.changedTouches[0].screenX;
     }, { passive: true });
     docTrack.addEventListener('touchend', function(e) {
-      touchEndX = e.changedTouches[0].screenX;
-      var diff = touchStartX - touchEndX;
+      var diff = touchStartX - e.changedTouches[0].screenX;
       if (Math.abs(diff) > 50) {
         if (diff > 0) nextDocSlide(); else prevDocSlide();
         resetDocAuto();
