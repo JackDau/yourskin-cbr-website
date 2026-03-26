@@ -22,6 +22,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta name="twitter:title" content="YourSkinCBR - Skin Cancer Checks in Canberra">
   <meta name="twitter:description" content="Book your skin cancer check with qualified specialist GPs across two Canberra locations.">
   <link rel="icon" href="favicon.ico">
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="LLM-readable site summary">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -683,6 +684,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   "description": "Skin cancer specialist GPs providing comprehensive checks, FotoFinder imaging, and procedures across two Canberra locations",
   "url": "https://www.yourskincbr.com.au",
   "telephone": "+61261090000",
+  "isAcceptingNewPatients": true,
+  "currenciesAccepted": "AUD",
+  "paymentAccepted": "Cash, Credit Card, EFTPOS",
+  "priceRange": "$180-$230",
   "location": [
     {
       "@type": "Place",
@@ -694,6 +699,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         "addressRegion": "ACT",
         "postalCode": "2911",
         "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -35.2259,
+        "longitude": 149.1184
       }
     },
     {
@@ -706,11 +716,53 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         "addressRegion": "ACT",
         "postalCode": "2611",
         "addressCountry": "AU"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -35.3788,
+        "longitude": 149.0346
       }
     }
   ],
   "openingHours": ["Mo-Fr 08:00-17:30", "Sa 08:30-13:00"],
-  "medicalSpecialty": "Dermatology"
+  "medicalSpecialty": "Dermatology",
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Full Body Skin Check",
+      "procedureType": "https://schema.org/DiagnosticProcedure"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Dermoscopy",
+      "procedureType": "https://schema.org/DiagnosticProcedure"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "FotoFinder Digital Imaging",
+      "procedureType": "https://schema.org/DiagnosticProcedure"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Skin Cancer Excision",
+      "procedureType": "https://schema.org/TherapeuticProcedure"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Skin Biopsy",
+      "procedureType": "https://schema.org/DiagnosticProcedure"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Skin Cancer Surveillance",
+      "procedureType": "https://schema.org/DiagnosticProcedure"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Cryotherapy",
+      "procedureType": "https://schema.org/TherapeuticProcedure"
+    }
+  ]
 }
 </script>
 

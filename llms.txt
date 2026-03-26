@@ -1,0 +1,85 @@
+# YourSkinCBR
+
+> Skin cancer specialist GPs providing comprehensive checks, FotoFinder imaging, and procedures across two Canberra locations.
+
+YourSkinCBR is a dedicated skin cancer clinic operated by specialist GPs with advanced qualifications in skin cancer medicine. Part of the YourGP network of independent practices, it offers full body skin checks, dermoscopy, FotoFinder digital imaging, biopsies, excisions, and ongoing surveillance across two convenient Canberra locations. All doctors hold a Diploma or Master's in Skin Cancer Medicine.
+
+## Key Information
+
+- **Phone**: (02) 6109 0000
+- **Hours**: Monday to Friday 8:00am-5:30pm, Saturday 8:30am-1:00pm, Sunday closed
+- **Booking**: Online via HotDoc (24/7) or by phone during business hours
+- **Billing**: Private billing. Medicare rebates processed on the day. Not bulk billed.
+- **DVA**: No DVA direct billing. DVA patients pay out-of-pocket and seek reimbursement directly.
+- **New patients**: Welcome
+- **FotoFinder imaging**: Available with Dr Reiham Ibrahim at Crace at no extra cost
+
+## Locations
+
+### Crace
+- **Address**: Unit 1, 5 Baratta Street, Crace ACT 2911
+- **Features**: FotoFinder imaging (Dr Reiham), biopsies and most excisions on-site
+- **Doctors**: Dr Kit Wong, Dr Ian Chan, Dr Reiham Ibrahim
+- **Fees**: Standard consultation $190, Long consultation $230. Medicare rebate $43.90 / $84.90
+- **Book online**: https://www.yourskincbr.com.au/book-crace/
+
+### Denman Prospect
+- **Address**: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
+- **Features**: Biopsies and most excisions on-site
+- **Doctors**: Dr Chi So, Dr Rachel Liang
+- **Fees**: <20 min consultation $180, >20 min consultation $220. Medicare rebate $43.90 / $84.90
+- **Book online**: https://www.yourskincbr.com.au/book-denman/
+
+## Doctors
+
+### Crace Doctors
+
+- **Dr Kit Wong** — Skin Cancer Specialist GP. Masters of Medicine (Skin Cancer) from University of Queensland. Fellow of the RACGP. University of Sydney graduate (honours, 2006). Over 10 years in skin cancer medicine. Services: comprehensive skin checks, cryotherapy, biopsies, melanoma excision, skin cancer surgery, mole/skin tag/cyst removal. Book: https://yourgp.group/kitwong
+- **Dr Ian Chan** — Skin Cancer Specialist GP. Masters in Skin Cancer Medicine. ANU medical studies. Skin-related visits only. Services: advanced skin cancer procedures, comprehensive skin examinations. Book: https://yourgp.group/ianchan
+- **Dr Reiham Ibrahim** — Skin Cancer Doctor (Accredited). 25+ years GP experience. Fellow of RACGP, Diploma in Skin Cancer Medicine, Advanced Certificate in Skin Cancer Surgery, Advanced Certificate in Dermatoscopy. Uses FotoFinder video dermoscopy (up to 400x magnification) at no extra cost. Soon to be Accredited Skin Cancer Doctor with Skin Cancer College Australasia. Saturday sessions available (first Saturday of every month). Book: https://yourgp.group/reiham-ibr
+
+### Denman Prospect Doctors
+
+- **Dr Chi So** — Skin Cancer Specialist GP. BMed, MPH, MMed (Skin Cancer). Fellow of the Royal College of General Practitioners (2017). Published researcher in skin cancer epidemiology. Services: full body skin checks, mole and spot checks, dermoscopy, surveillance, excisions, biopsies, minor procedures. Book: https://yourgp.group/chiso
+- **Dr Rachel Liang** — Skin Cancer Specialist GP. Over a decade specialising in skin cancer diagnosis and surgery. Trained by leading plastic surgeon Dr Alastair Taylor. Holistic, empathetic approach. Services: comprehensive skin examinations, advanced dermatological procedures, skin cancer diagnosis and surgery. Book: https://yourgp.group/rachellian
+
+## Services
+
+- Full Body Skin Checks (30-45 minutes)
+- Dermoscopy (15-30 minutes)
+- FotoFinder Digital Imaging (Dr Reiham Ibrahim, Crace only, no extra cost)
+- Skin Cancer Excision (30-60 minutes)
+- Skin Biopsies (15-20 minutes)
+- Skin Cancer Surveillance (20-30 minutes)
+- Minor Procedures: mole removal, skin tag removal, cyst removal, cryotherapy (15-45 minutes)
+
+## What to Expect
+
+1. **Book** — Choose your location and preferred doctor online or call (02) 6109 0000
+2. **Skin Check** — Comprehensive examination including dermoscopy and FotoFinder imaging (Dr Reiham)
+3. **Biopsy if Needed** — Same doctor, same site, no referrals needed for most procedures
+4. **Results** — Pathology results typically available within one week
+5. **Treatment** — On-site excision for most cases
+6. **Aftercare** — All aftercare provided on-site by the treating doctor and nursing team
+
+## Sister Practices
+
+- [YourGP@Crace](https://www.yourgpcrace.com.au) — 1/5 Baratta Street, Crace ACT 2911
+- [YourGP@Denman](https://www.yourgpdenman.com.au) — 1B Felstead Vista, Denman Prospect ACT 2611
+- [YourGP@Lyneham](https://www.yourgplyneham.com.au) — 62 Brigalow St, Lyneham ACT 2602
+- [Canberra Vasectomy](https://www.canberravasectomy.com.au) — Dr John Deery, no-scalpel vasectomy
+
+## Pages
+
+- [Home](https://www.yourskincbr.com.au/): Overview, locations, fees, FAQs, testimonials, contact
+- [Services](https://www.yourskincbr.com.au/services/): Full list of skin cancer services
+- [Doctors](https://www.yourskincbr.com.au/doctors/): All doctor profiles and qualifications
+- [Dr Chi So](https://www.yourskincbr.com.au/doctors/dr-chi-so/): Full profile
+- [Dr Rachel Liang](https://www.yourskincbr.com.au/doctors/dr-rachel-liang/): Full profile
+- [Dr Reiham Ibrahim](https://www.yourskincbr.com.au/doctors/dr-reiham-ibrahim/): Full profile with FotoFinder details
+- [Dr Kit Wong](https://www.yourskincbr.com.au/doctors/dr-kit-wong/): Full profile
+- [Dr Ian Chan](https://www.yourskincbr.com.au/doctors/dr-ian-chan/): Full profile
+- [Case Studies](https://www.yourskincbr.com.au/case-studies/): Real patient detection and treatment examples
+- [Book Crace](https://www.yourskincbr.com.au/book-crace/): Booking page for Crace location
+- [Book Denman](https://www.yourskincbr.com.au/book-denman/): Booking page for Denman Prospect location
+- [Privacy Policy](https://www.yourskincbr.com.au/privacy-policy/): Full privacy policy
