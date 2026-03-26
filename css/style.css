@@ -488,6 +488,52 @@ footer {
   border-radius: 50%; flex-shrink: 0;
 }
 
+/* === Doctor Carousel === */
+.doctors-carousel-section { background: linear-gradient(135deg, rgba(0,128,179,0.04), rgba(0,179,166,0.04)); }
+.doc-carousel { position: relative; overflow: hidden; }
+.doc-carousel-track { display: flex; transition: transform 0.4s ease; }
+.doc-slide { min-width: 100%; box-sizing: border-box; padding: 0 0.5rem; }
+.doc-slide-card { height: 100%; }
+.doc-slide-inner { display: grid; grid-template-columns: 280px 1fr; gap: 2rem; align-items: center; }
+.doc-slide-photo {
+  width: 100%; aspect-ratio: 3/4; overflow: hidden; border-radius: 0.75rem;
+  background: var(--muted-bg);
+}
+.doc-slide-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.doc-slide-info h3 { font-size: 1.5rem; color: var(--primary); margin-bottom: 0.25rem; }
+.doc-slide-title { font-size: 0.938rem; color: var(--muted); margin-bottom: 0.25rem; }
+.doc-slide-location { font-size: 0.875rem; font-weight: 600; color: var(--accent); margin-bottom: 1rem; }
+.doc-slide-features { list-style: none; padding: 0; margin: 0 0 1.5rem; }
+.doc-slide-features li {
+  display: flex; align-items: flex-start; gap: 0.625rem;
+  font-size: 0.875rem; color: var(--foreground); margin-bottom: 0.75rem; line-height: 1.4;
+}
+.doc-slide-features li svg { color: var(--accent); flex-shrink: 0; margin-top: 0.125rem; }
+.doc-slide-actions { display: flex; gap: 0.75rem; flex-wrap: wrap; }
+.doc-slide-book { font-size: 0.875rem; padding: 0.625rem 1.25rem; }
+.doc-slide-learn { font-size: 0.875rem; padding: 0.625rem 1.25rem; }
+
+.doc-carousel-arrow {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 2.5rem; height: 2.5rem; border-radius: 50%;
+  background: #fff; border: 1px solid var(--border); color: var(--foreground);
+  font-size: 1.5rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08); transition: background 0.2s;
+  z-index: 2;
+}
+.doc-carousel-arrow:hover { background: var(--muted-bg); }
+.doc-carousel-prev { left: 0.5rem; }
+.doc-carousel-next { right: 0.5rem; }
+.doc-carousel-nav {
+  display: flex; justify-content: center; gap: 0.5rem; margin-top: 1.5rem;
+}
+.doc-carousel-dot {
+  width: 0.625rem; height: 0.625rem; border-radius: 50%;
+  background: var(--border); border: none; cursor: pointer; padding: 0;
+  transition: background 0.2s, transform 0.2s;
+}
+.doc-carousel-dot.active { background: var(--primary); transform: scale(1.3); }
+
 /* === Services Page === */
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
 .service-card .card { height: 100%; display: flex; flex-direction: column; }
@@ -629,6 +675,7 @@ footer {
   .footer-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .doctors-grid { grid-template-columns: repeat(2, 1fr); }
   .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .doc-slide-inner { grid-template-columns: 220px 1fr; gap: 1.5rem; }
   .booking-grid { grid-template-columns: 1fr; max-width: 400px; }
   .profile-grid { grid-template-columns: 1fr; text-align: center; }
   .profile-photo { margin: 0 auto; width: 240px; height: 240px; }
@@ -649,6 +696,11 @@ footer {
   .cases-grid { grid-template-columns: 1fr; }
   .case-modal-gallery { grid-template-columns: 1fr; }
   .case-modal { padding: 1.5rem; }
+  .doc-slide-inner { grid-template-columns: 1fr; text-align: center; }
+  .doc-slide-photo { max-width: 200px; margin: 0 auto; aspect-ratio: 1; border-radius: 50%; }
+  .doc-slide-features li { text-align: left; }
+  .doc-slide-actions { justify-content: center; }
+  .doc-carousel-arrow { display: none; }
   .footer-bottom-inner { flex-direction: column; text-align: center; }
   .announcement-inner { flex-direction: column; text-align: center; }
 }

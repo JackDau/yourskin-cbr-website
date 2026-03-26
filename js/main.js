@@ -273,4 +273,73 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
+  // === Doctor Carousel ===
+  var docTrack = document.getElementById('doc-carousel-track');
+  var docSlides = docTrack ? docTrack.querySelectorAll('.doc-slide') : [];
+  var docNav = document.getElementById('doc-carousel-nav');
+  var docPrev = document.getElementById('doc-prev');
+  var docNext = document.getElementById('doc-next');
+  var docIndex = 0;
+  var docAutoTimer;
+
+  if (docTrack && docSlides.length > 0) {
+    // Create dots
+    docSlides.forEach(function(_, i) {
+      var dot = document.createElement('button');
+      dot.className = 'doc-carousel-dot' + (i === 0 ? ' active' : '');
+      dot.setAttribute('aria-label', 'Doctor ' + (i + 1));
+      dot.addEventListener('click', function() {
+        goToDocSlide(i);
+        resetDocAuto();
+      });
+      docNav.appendChild(dot);
+    });
+
+    function goToDocSlide(index) {
+      docIndex = index;
+      docTrack.style.transform = 'translateX(-' + (index * 100) + '%)';
+      var dots = docNav.querySelectorAll('.doc-carousel-dot');
+      dots.forEach(function(d, i) {
+        d.classList.toggle('active', i === index);
+      });
+    }
+
+    function nextDocSlide() {
+      goToDocSlide((docIndex + 1) % docSlides.length);
+    }
+
+    function prevDocSlide() {
+      goToDocSlide((docIndex - 1 + docSlides.length) % docSlides.length);
+    }
+
+    function startDocAuto() {
+      docAutoTimer = setInterval(nextDocSlide, 6000);
+    }
+
+    function resetDocAuto() {
+      clearInterval(docAutoTimer);
+      startDocAuto();
+    }
+
+    if (docPrev) docPrev.addEventListener('click', function() { prevDocSlide(); resetDocAuto(); });
+    if (docNext) docNext.addEventListener('click', function() { nextDocSlide(); resetDocAuto(); });
+
+    startDocAuto();
+
+    // Touch/swipe support
+    var touchStartX = 0;
+    var touchEndX = 0;
+    docTrack.addEventListener('touchstart', function(e) {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    docTrack.addEventListener('touchend', function(e) {
+      touchEndX = e.changedTouches[0].screenX;
+      var diff = touchStartX - touchEndX;
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) nextDocSlide(); else prevDocSlide();
+        resetDocAuto();
+      }
+    }, { passive: true });
+  }
+
 });
