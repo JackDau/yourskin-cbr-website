@@ -1,0 +1,105 @@
+# YourSkinCBR
+
+> Specialist skin cancer clinic in Canberra, Australia. Dedicated skin cancer detection, diagnosis, and treatment with 5 specialist GPs across two locations in Crace and Denman Prospect.
+
+## Website Information
+
+- URL: https://yourskincbr.com.au
+- Practice: YourSkinCBR
+- Phone: (02) 6109 0000
+- Booking System: HotDoc (online appointment booking)
+- ABN: 12 345 678 901
+
+## Locations
+
+### YourSkinCBR@Crace
+- Address: Unit 1, 5 Baratta Street, Crace ACT 2911
+- Hours: Monday–Friday 8am–5:30pm, Saturday 8:30am–1pm
+
+### YourSkinCBR@Denman Prospect
+- Address: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
+- Hours: Monday–Friday 8am–5:30pm, Saturday 8:30am–1pm
+
+## Doctors
+
+### Dr Chi So
+- Qualifications: BMed MPH MMed
+- Role: Skin Cancer Specialist GP
+- Location: Denman Prospect
+
+### Dr Rachel Liang
+- Role: Skin Cancer Specialist GP
+- Experience: Over a decade in skin cancer specialty
+- Location: Denman Prospect
+
+### Dr Reiham Ibrahim
+- Experience: 25+ years GP experience
+- Specialty: FotoFinder total body imaging technology expert
+- Location: Crace
+
+### Dr Kit Wong
+- Qualifications: Masters in Skin Cancer Medicine, RACGP Fellow
+- Location: Crace
+
+### Dr Ian Chan
+- Qualifications: Masters in Skin Cancer Medicine
+- Location: Denman Prospect
+
+## Pages
+
+### Home
+- Path: /
+- Description: Landing page with practice overview, "Why Choose YourSkinCBR" feature cards, patient testimonials carousel (12 testimonials), location comparison with fee tables, "What to Expect" 6-step timeline (Book, Check, Biopsy, Results, Treatment, Aftercare), FAQ/fees accordion, and contact section with maps.
+
+### Services
+- Path: /services
+- Description: 6 specialist services — Full Body Skin Checks (30–45 min), Dermoscopy (15–30 min), Skin Cancer Excision (30–60 min), Skin Biopsies (15–20 min), Skin Cancer Surveillance (20–30 min), Minor Procedures/Mole Removal (15–45 min). Each service includes description, features checklist, and duration.
+
+### Case Studies
+- Path: /case-studies
+- Description: Clinical case studies with before/after images. Published cases include Basal Cell Carcinoma on ear (surgical excision, clear margins) and Suspicious Lesion detected via dermoscopy (biopsy and excision). More case studies planned.
+
+### Doctors
+- Path: /doctors
+- Description: Directory of 5 specialist skin cancer GPs with profile cards showing qualifications, brief bios, and links to full profiles.
+
+### Dr Chi So Profile
+- Path: /doctors/dr-chi-so
+- Description: Full profile with biography, qualifications, specialties, location, booking links, services offered, and patient testimonials.
+
+### Dr Ian Chan Profile
+- Path: /doctors/dr-ian-chan
+- Description: Full profile with biography, qualifications, location, and booking links.
+
+### Dr Kit Wong Profile
+- Path: /doctors/dr-kit-wong
+- Description: Full profile with biography, qualifications (Masters in Skin Cancer Medicine), location, and booking links.
+
+### Dr Rachel Liang Profile
+- Path: /doctors/dr-rachel-liang
+- Description: Full profile with biography, decade of skin cancer experience, location, and booking links.
+
+### Dr Reiham Ibrahim Profile
+- Path: /doctors/dr-reiham-ibrahim
+- Description: Full profile with biography, 25+ years experience, FotoFinder technology expertise, location, and booking links.
+
+### Book at Crace
+- Path: /book-crace
+- Description: Booking page redirecting to HotDoc for YourSkinCBR@Crace appointments. Doctor availability information.
+
+### Book at Denman
+- Path: /book-denman
+- Description: Booking page redirecting to HotDoc for YourSkinCBR@Denman appointments. Doctor availability information.
+
+### Privacy Policy
+- Path: /privacy-policy
+- Description: Full YourGP privacy policy. PDF version available for download.
+
+## Key Facts
+
+- Specialty: Dedicated skin cancer detection, diagnosis, and treatment
+- Techniques: Dermoscopy, FotoFinder total body imaging, surgical excision, biopsy
+- Team: 5 specialist skin cancer GPs
+- Saturday Clinic: Available at both locations 8:30am–1pm
+- Process: Book → Skin Check → Biopsy (if needed) → Results → Treatment → Aftercare
+- Services: Full body skin checks, dermoscopy, skin cancer excision, biopsies, surveillance, mole removal
