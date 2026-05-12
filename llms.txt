@@ -26,7 +26,7 @@ YourSkinCBR is a dedicated skin cancer clinic operated by specialist GPs with ad
 ### Denman Prospect
 - **Address**: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
 - **Features**: Biopsies and most excisions on-site
-- **Doctors**: Dr Chi So, Dr Rachel Liang
+- **Doctors**: Dr Chi So
 - **Fees**: <20 min consultation $180, >20 min consultation $220. Medicare rebate $43.90 / $84.90
 - **Book online**: https://www.yourskincbr.com.au/book-denman/
 
@@ -41,7 +41,6 @@ YourSkinCBR is a dedicated skin cancer clinic operated by specialist GPs with ad
 ### Denman Prospect Doctors
 
 - **Dr Chi So** — Skin Cancer Specialist GP. BMed, MPH, MMed (Skin Cancer). Fellow of the Royal College of General Practitioners (2017). Published researcher in skin cancer epidemiology. Services: full body skin checks, mole and spot checks, dermoscopy, surveillance, excisions, biopsies, minor procedures. Book: https://yourgp.group/chiso
-- **Dr Rachel Liang** — Skin Cancer Specialist GP. Over a decade specialising in skin cancer diagnosis and surgery. Trained by leading plastic surgeon Dr Alastair Taylor. Holistic, empathetic approach. Services: comprehensive skin examinations, advanced dermatological procedures, skin cancer diagnosis and surgery. Book: https://yourgp.group/rachellian
 
 ## Services
 
@@ -75,7 +74,6 @@ YourSkinCBR is a dedicated skin cancer clinic operated by specialist GPs with ad
 - [Services](https://www.yourskincbr.com.au/services/): Full list of skin cancer services
 - [Doctors](https://www.yourskincbr.com.au/doctors/): All doctor profiles and qualifications
 - [Dr Chi So](https://www.yourskincbr.com.au/doctors/dr-chi-so/): Full profile
-- [Dr Rachel Liang](https://www.yourskincbr.com.au/doctors/dr-rachel-liang/): Full profile
 - [Dr Reiham Ibrahim](https://www.yourskincbr.com.au/doctors/dr-reiham-ibrahim/): Full profile with FotoFinder details
 - [Dr Kit Wong](https://www.yourskincbr.com.au/doctors/dr-kit-wong/): Full profile
 - [Dr Ian Chan](https://www.yourskincbr.com.au/doctors/dr-ian-chan/): Full profile
