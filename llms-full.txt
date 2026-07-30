@@ -58,9 +58,9 @@ Book Crace: https://www.yourskincbr.com.au/book-crace/
 - Address: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
 - Features: Biopsies and most excisions
 
-| Doctor | <20 min | >20 min | Medicare Rebate |
-|--------|---------|---------|-----------------|
-| Dr Chi So | $180 | $220 | $43.90 / $84.90 |
+| Doctor | Full Skin Check | Medicare Rebate |
+|--------|-----------------|-----------------|
+| Dr Chi So | $250 | $84.90 |
 
 Book Denman: https://www.yourskincbr.com.au/book-denman/
 
@@ -201,7 +201,7 @@ Meet our experienced team of skin cancer specialists across two Canberra locatio
 - **Credentials**: BMed MPH MMed (Skin Cancer)
 - **Location**: Denman Clinic | Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
 - **Phone**: 02 6109 0000
-- **Fees**: Standard Consultation $180, Long Consultation $220, Medicare Rebate $43.90 / $84.90
+- **Fees**: Full Skin Check $250, Medicare Rebate $84.90
 - **Book**: https://yourgp.group/chiso
 
 Dr Chi So is a GP with extensive experience in skin cancer diagnosis and management. He believes in an empathetic and caring approach to his consultations and can perform full body skin checks, mole and spot checks, dermoscopy, skin cancer surveillance, excisions, biopsies, and minor procedures.
@@ -372,9 +372,8 @@ Choose from our two experienced doctors at YourSkinCBR Denman Prospect.
 
 #### Dr Chi So
 - BMed MPH MMed (Skin Cancer)
-- <20 min consultation: $180
-- >20 min consultation: $220
-- Medicare rebate: $43.90 / $84.90
+- Full skin check: $250
+- Medicare rebate: $84.90
 - Book: https://yourgp.group/chiso
 
 **Location**: Level 1, 1B Felstead Vista, Denman Prospect ACT 2611. Biopsies and most excisions on-site. New patients welcome.
