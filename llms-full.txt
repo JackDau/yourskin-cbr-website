@@ -48,9 +48,9 @@ Two convenient Canberra locations offering comprehensive skin cancer services.
 
 | Doctor | Standard | Long | Medicare Rebate |
 |--------|----------|------|-----------------|
-| Dr Kit Wong (new patients welcome) | $190 | $230 | $43.90 / $84.90 |
-| Dr Ian Chan (skin-related visits only) | $190 | $230 | $43.90 / $84.90 |
-| Dr Reiham Ibrahim (FotoFinder imaging) | $190 | $230 | $43.90 / $84.90 |
+| Dr Kit Wong (new patients welcome) | $190 | $230 | $45.05 / $87.10 |
+| Dr Ian Chan (skin-related visits only) | $190 | $230 | $45.05 / $87.10 |
+| Dr Reiham Ibrahim (FotoFinder imaging) | $190 | $230 | $45.05 / $87.10 |
 
 Book Crace: https://www.yourskincbr.com.au/book-crace/
 
@@ -60,7 +60,7 @@ Book Crace: https://www.yourskincbr.com.au/book-crace/
 
 | Doctor | Full Skin Check | Medicare Rebate |
 |--------|-----------------|-----------------|
-| Dr Chi So | $250 | $84.90 |
+| Dr Chi So | $250 | $87.10 |
 
 Book Denman: https://www.yourskincbr.com.au/book-denman/
 
@@ -78,7 +78,7 @@ Your journey with YourSkinCBR — from booking to treatment, all in one convenie
 ### Frequently Asked Questions
 
 **Will I get a Medicare rebate?**
-Yes — Medicare rebates are processed automatically on the day of your consultation. Standard consultations attract a $43.90 rebate, while longer consultations (>20 minutes) attract an $84.90 rebate.
+Yes — Medicare rebates are processed automatically on the day of your consultation. Standard consultations attract a $45.05 rebate, while longer consultations (>20 minutes) attract an $87.10 rebate.
 
 **Is there an extra cost for FotoFinder imaging?**
 No additional charge applies for FotoFinder digital dermoscopic imaging with Dr Reiham Ibrahim. The standard consultation fee covers this advanced imaging technology.
@@ -204,7 +204,7 @@ Meet our experienced team of skin cancer specialists across two Canberra locatio
 - **Credentials**: BMed MPH MMed (Skin Cancer)
 - **Location**: Denman Clinic | Level 1, 1B Felstead Vista, Denman Prospect ACT 2611
 - **Phone**: 02 6109 0000
-- **Fees**: Full Skin Check $250, Medicare Rebate $84.90
+- **Fees**: Full Skin Check $250, Medicare Rebate $87.10
 - **Book**: https://yourgp.group/chiso
 
 Dr Chi So is a GP with extensive experience in skin cancer diagnosis and management. He believes in an empathetic and caring approach to his consultations and can perform full body skin checks, mole and spot checks, dermoscopy, skin cancer surveillance, excisions, biopsies, and minor procedures.
@@ -236,7 +236,7 @@ Dr So has completed the Master of Public Health and has been involved in NHMRC-f
 - **Credentials**: 25+ Years of GP Experience | Advanced Skin Cancer Training
 - **Location**: Crace Clinic | Unit 1, 5 Baratta St, Crace ACT 2911
 - **Phone**: 02 6109 0000
-- **Fees**: Standard Consultation $190, Long Consultation $230, Medicare Rebate $43.90 / $84.90
+- **Fees**: Standard Consultation $190, Long Consultation $230, Medicare Rebate $45.05 / $87.10
 - **Book**: https://yourgp.group/reiham-ibr
 
 **FotoFinder Digital Imaging Available**: Dr Ibrahim uses cutting-edge FotoFinder video dermoscopy technology that magnifies skin structures up to 400x for enhanced early detection. No additional charge applies.
@@ -268,7 +268,7 @@ Soon to be an Accredited Skin Cancer Doctor with the Skin Cancer College Austral
 - **Credentials**: Masters of Medicine (Skin Cancer)
 - **Location**: Crace Clinic | Unit 1, 5 Baratta St, Crace ACT 2911
 - **Phone**: 02 6109 0000
-- **Fees**: Standard Consultation $190, Long Consultation $230, Medicare Rebate $43.90 / $84.90
+- **Fees**: Standard Consultation $190, Long Consultation $230, Medicare Rebate $45.05 / $87.10
 - **Book**: https://yourgp.group/kitwong
 
 Dr Kit Wong graduated with honours from the University of Sydney in 2006 and is a Fellow of the RACGP. He completed his Masters of Medicine (Skin Cancer) from the University of Queensland in 2018, bringing advanced expertise to skin cancer diagnosis and treatment.
@@ -296,7 +296,7 @@ With over 10 years of experience in Skin Cancer Medicine, Dr Wong is actively in
 - **Credentials**: Masters in Skin Cancer Medicine
 - **Location**: Crace Clinic | Unit 1, 5 Baratta St, Crace ACT 2911
 - **Phone**: 02 6109 0000
-- **Fees**: Standard Consultation $190, Long Consultation $230, Medicare Rebate $43.90 / $84.90
+- **Fees**: Standard Consultation $190, Long Consultation $230, Medicare Rebate $45.05 / $87.10
 - **Book**: https://yourgp.group/ianchan
 
 Dr Ian is very passionate about skin cancer medicine, and has completed advanced training in the field with a Masters in Skin Cancer Medicine. He is committed to continuing medical education through teaching medical students, and often has students assisting him during procedures.
@@ -346,21 +346,21 @@ Choose from our three experienced doctors at YourSkinCBR Crace.
 - New patients welcome
 - Standard consultation: $190
 - Long consultation: $230
-- Medicare rebate: $43.90 / $84.90
+- Medicare rebate: $45.05 / $87.10
 - Book: https://yourgp.group/kitwong
 
 #### Dr Ian Chan
 - Skin-related visits only
 - Standard consultation: $190
 - Long consultation: $230
-- Medicare rebate: $43.90 / $84.90
+- Medicare rebate: $45.05 / $87.10
 - Book: https://yourgp.group/ianchan
 
 #### Dr Reiham Ibrahim (Featured Doctor)
 - FotoFinder imaging
 - Standard consultation: $190
 - Long consultation: $230
-- Medicare rebate: $43.90 / $84.90
+- Medicare rebate: $45.05 / $87.10
 - Book: https://yourgp.group/reiham-ibr
 
 **Cancellation Policy**: Please give as much notice as possible if you need to cancel or reschedule. Missed appointments without notice will attract a $50 fee for a standard appointment and $100 for a long appointment.
@@ -378,7 +378,7 @@ Choose from our two experienced doctors at YourSkinCBR Denman Prospect.
 #### Dr Chi So
 - BMed MPH MMed (Skin Cancer)
 - Full skin check: $250
-- Medicare rebate: $84.90
+- Medicare rebate: $87.10
 - Book: https://yourgp.group/chiso
 
 **Cancellation Policy**: Please give as much notice as possible if you need to cancel or reschedule. Missed appointments without notice will attract a $50 fee for a standard appointment and $100 for a long appointment.
