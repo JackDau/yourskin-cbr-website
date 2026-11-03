@@ -19,7 +19,7 @@ YourSkinCBR is a dedicated skin cancer clinic operated by specialist GPs with ad
 ### Crace
 - **Address**: Unit 1, 5 Baratta Street, Crace ACT 2911
 - **Features**: FotoFinder imaging (Dr Reiham), biopsies and most excisions on-site
-- **Doctors**: Dr Kit Wong, Dr Ian Chan, Dr Reiham Ibrahim, Dr John (Kyaw) Pyae (Wednesdays)
+- **Doctors**: Dr Kit Wong, Dr Ian Chan, Dr Reiham Ibrahim, Dr John (Kyaw) Pyae (Wednesdays), Dr Mohammed Asif (Tuesdays and Thursdays)
 - **Fees**: Standard consultation $190, Long consultation $230. Medicare rebate $45.05 / $87.10
 - **Book online**: https://yourskincbr.com.au/book-crace/
 
@@ -42,6 +42,7 @@ Please give as much notice as possible if you need to cancel or reschedule. Miss
 - **Dr Ian Chan** — Skin Cancer Specialist GP. Masters in Skin Cancer Medicine. ANU medical studies. Skin-related visits only. Services: advanced skin cancer procedures, comprehensive skin examinations. Book: https://yourgp.group/ianchan
 - **Dr Reiham Ibrahim** — Skin Cancer Doctor (Accredited). 25+ years GP experience. Fellow of RACGP, Diploma in Skin Cancer Medicine, Advanced Certificate in Skin Cancer Surgery, Advanced Certificate in Dermatoscopy. Uses FotoFinder video dermoscopy (up to 400x magnification) at no extra cost. Soon to be Accredited Skin Cancer Doctor with Skin Cancer College Australasia. Saturday sessions available (first Saturday of every month). Book: https://yourgp.group/reiham-ibr
 - **Dr John (Kyaw) Pyae** — Skin Cancer Specialist GP. Masters in Skin Cancer Medicine from the University of Queensland. Fellow of the RACGP (2024). Medical degree 2012, almost 10 years in general practice, previously a GP in Boorowa NSW. Skin sessions Wednesdays only. Services: comprehensive skin checks, dermoscopy and mole checks, biopsies, cryotherapy, minor skin procedures, mole/skin tag/cyst removal. Book: https://www.hotdoc.com.au/medical-centres/crace-ACT-2911/yourgp-crace-yourgp-lyneham/doctors/dr-john-pyae (when booking, select either "Skin Check – Full Skin Check with Dermatoscope" or "Skin Check – One Spot Only with Dermatoscope")
+- **Dr Mohammed Asif** — Accredited Skin Cancer Doctor. Postgraduate qualifications in Skin Cancer Surgery, Skin Cancer Medicine and Dermatology. Member of the Australasian Skin Cancer College (Distinguished Scholarship, top graduate in Advanced Surgery & Medicine); Advanced Dermoscopy course with Distinction; Tutor in the College's advanced training programs. Skin sessions Tuesdays and Thursdays at Crace. Services: comprehensive skin checks, advanced dermoscopy, skin cancer flap and graft surgery. Book: https://www.hotdoc.com.au/medical-centres/crace-ACT-2911/yourgp-crace-yourgp-lyneham/doctors/dr-mohammed-asif-skin-checks-only?purpose=true
 
 ### Denman Prospect Doctors
 
@@ -83,6 +84,7 @@ Please give as much notice as possible if you need to cancel or reschedule. Miss
 - [Dr Kit Wong](https://yourskincbr.com.au/doctors/dr-kit-wong/): Full profile
 - [Dr Ian Chan](https://yourskincbr.com.au/doctors/dr-ian-chan/): Full profile
 - [Dr John (Kyaw) Pyae](https://yourskincbr.com.au/doctors/dr-john-pyae/): Full profile
+- [Dr Mohammed Asif](https://yourskincbr.com.au/doctors/dr-mohammed-asif/): Full profile
 - [Case Studies](https://yourskincbr.com.au/case-studies/): Real patient detection and treatment examples
 - [Book Crace](https://yourskincbr.com.au/book-crace/): Booking page for Crace location
 - [Book Denman](https://yourskincbr.com.au/book-denman/): Booking page for Denman Prospect location
